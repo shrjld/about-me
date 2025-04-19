@@ -1,0 +1,101 @@
+*{
+    font-family: vazirmatn;
+    direction: rtl;
+}
+:root{
+    --clr: rgb(79, 192, 248);
+    --clrr:rgb(187, 185, 185);
+}
+h2{
+    color:var(--clr);
+    font-size: xx-large;
+    margin-right: 40px;
+   
+}
+
+
+.bodysec{
+    width: 800px;
+    height:900px ;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+
+    
+}
+
+.talent{
+    background-color:var(--clr);
+    width: 200px;
+  
+    border-radius: 50px;
+    width: 230px;
+    height: 550px;
+     position: absolute;
+    top: 30px;
+    right: 300px;
+    border: 3px solid var(--clrr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+    
+}
+
+button{
+    width: 170px;
+    padding: 10px ;
+    margin: 5px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    font-size:15px;
+    letter-spacing: 1px;
+   
+    
+}
+.info{
+
+    background-color: var(--clrr);
+    border-radius: 50px;
+    border: 3px solid var(--clr);
+    width: 200px;
+    height:550px;
+    padding: 20px;
+   
+   
+}
+.degree{
+    position: absolute;
+    top:600px;
+    right: 300px;
+    background-color: var(--clr);
+    border: 3px solid var(--clrr);
+    border-radius: 50px;
+    width: 230px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.degree>button{
+    margin-top: 20px;
+}
+.description{
+    position: absolute;
+    top: 30px;
+    right: 550px;
+    background-color: white;
+    border: 3px solid var(--clr);
+    width: 250px;
+    height: 900px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description>button{
+    color: var(--clr);
+}
+
